@@ -1,0 +1,2 @@
+/usr/bin/ar qc libunitio.a CMakeFiles/unitio.dir/lib/test2.cpp.o CMakeFiles/unitio.dir/main.cpp.o
+/usr/bin/ranlib libunitio.a
