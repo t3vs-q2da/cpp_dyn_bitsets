@@ -1,0 +1,1 @@
+(cd $(dirname "$0")&& echo "\e[1;34mLIB BUILDING\e[0m" && cmake src && make && sh ../cpp_dyn_bitsets_test/clear.sh && cp libunitio.a ../cpp_dyn_bitsets_test/libs/a && cp -a -T include/ ../cpp_dyn_bitsets_test/libs/h && sh ../cpp_dyn_bitsets_test/sh.sh)

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.12.0 FATAL_ERROR)
+project(unitio VERSION 0.1.0 LANGUAGES CXX C)
+set (CMAKE_CXX_STANDARD 20)
+include_directories(${CMAKE_SOURCE_DIR}/../include)
+file(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "*.cpp")
+add_library(unitio ${SOURCES})
