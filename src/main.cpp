@@ -21,7 +21,7 @@ void printBinary(const unsigned char * pointer,size_t size)
 
 void test()
 {
-	std::cout<<"hi it test"<<std::endl;
+	std::cout<<"hi it test ssss hi"<<std::endl;
 	DynamicBitset<> bitset{};
 	printBinary(bitset.getAll(),bitset.getSize());
 	bitset.set(0,1);
